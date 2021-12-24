@@ -1,7 +1,7 @@
 # Spring API
 by Denny Imanuel
 
-This project shows how to build Java Spring Boot API
+This project shows how to build Java Spring Boot API with Swagger UI
 
 ### Requirement
 
@@ -20,3 +20,9 @@ On IntelliJ Run Configuration choose SpringBoot configuration and set as follows
 Once you run the SpringApi configuration the endpoints will shows up as below:
 
 ![](jpg/endpoint.jpg)
+
+### Swagger UI
+
+Run the browser on http://localhost:8080/swagger-ui.html you'll see the Swagger UI:
+
+![](jpg/swagger.jpg)
