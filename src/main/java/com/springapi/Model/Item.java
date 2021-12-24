@@ -1,9 +1,9 @@
-package com.example.springapi;
+package com.springapi.Model;
 
 public class Item {
 
-    String Name;
-    Integer Quantity;
+    public String Name;
+    public Integer Quantity;
 
     public Item(String name, Integer quantity) {
         Name = name;

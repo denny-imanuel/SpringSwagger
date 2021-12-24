@@ -1,4 +1,4 @@
-package com.example.springapi;
+package com.springapi;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -24,7 +24,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(getApiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.example.springapi"))
+                .apis(RequestHandlerSelectors.basePackage("com.springapi"))
                 .paths(PathSelectors.any())
                 .build();
     }

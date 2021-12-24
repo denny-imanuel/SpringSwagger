@@ -1,18 +1,17 @@
-package com.example.springapi;
+package com.springapi.Controller;
 
+import com.springapi.Model.Item;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 
 @RestController
 public class ItemController {
 
     List<Item> itemList = new ArrayList<>();
 
-    ItemController() {
+    public ItemController() {
         itemList.add(new Item("Air", 10));
         itemList.add(new Item("Brush", 20));
         itemList.add(new Item("Candy", 30));

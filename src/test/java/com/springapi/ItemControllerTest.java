@@ -1,5 +1,7 @@
-package com.example.springapi;
+package com.springapi;
 
+import com.springapi.Controller.ItemController;
+import com.springapi.Model.Item;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
